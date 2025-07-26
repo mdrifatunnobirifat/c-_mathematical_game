@@ -19,7 +19,7 @@ int main()
         " *  type 2 to do subtraction\n"<<
         " *  type 3 to do multipliaction\n"<<
         " *  type 4 to do divide\n" <<
-        " *  type 5 to see multiplication\n"<<
+        " *  type 5 to see multiplication table\n"<<
         " *  type 6 to check even or odd\n"<<
         " *  type 7 to play sum game\n"<<
         " *  type 8 to play subtraction game\n"<<
@@ -31,25 +31,25 @@ int main()
         if(a==1)
         {
              cout<<"enter your 1 st number"<<endl; cin>>b;
-             cout<<"enter result"<<endl; cin>>c;
+             cout<<"enter your 2nd number"<<endl; cin>>c;
              sum=b+c; cout<<" "<<b<<"+ "<<c<<"= "<<sum<<endl;
              }
 
    else if(a==2) {
                 cout<<"enter your 1 st number"<<endl; cin>>b;
-                cout<<"enter result"<<endl; cin>>c;
+                cout<<"enter your 2nd number"<<endl; cin>>c;
                 sub=b-c; cout<<b<<" -"<<" "<<c<<"= "<<sub<<endl;
                 }
 
    else if(a==3)
 
         { cout<<"enter your 1 st number"<<endl; cin>>b;
-          cout<<"enter result"<<endl; cin>>c;
+          cout<<"enter your 2nd number"<<endl; cin>>c;
            mul=b*c; cout<<b<<" *"<<" "<<c<<"= "<<mul<<endl;
         }
    else if(a==4)
         {cout<<"enter your 1 st number"<<endl; cin>>b;
-        cout<<"enter result"<<endl; cin>>c;
+        cout<<"enter your 2nd number"<<endl; cin>>c;
          div=(float)b/(float)c;cout<<b<<" /"<<" "<<c<<"= "<<div<<endl;
         }
 
@@ -71,7 +71,7 @@ int main()
     if(a==7){
             cout<<" enter your 1st number= "<<endl;
             cin>>h;
-             cout<<"enter result=  "<<endl;
+             cout<<"enter result to calculate=  "<<endl;
               cin>>j;
              cout<<" "<<h<<"+ -?-"<<" = "<<j<<"   what will be  in the (?) "<<endl;  cin>>i;
      if(i==(j-h))
